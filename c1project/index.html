@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer type="text/javascript"></script>
+    <title>Project Zero</title>
+  </head>
+  <body>
+    <!-- header goes here -->
+    <header>
+      <a href="/" class="site-logo" title="NCIT">LOGO</a>
+      <nav>
+        <ul>
+          <li><a href="" title="Home">Home</a></li>
+          <li><a href="" title="About"> About</a></li>
+          <li><a href="" title="Blog">Blog</a></li>
+          <li><a href="" title="Contact">Contact</a></li>
+          <li><a href="" title="">FAQs</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- banner starts from here -->
+    <figure class="banner">
+      <img src="../lab1//images/images.jpeg" alt="NCIT program" />
+      <figcaption class="banner__content">Dear Banner!</figcaption>
+    </figure>
+
+    <!-- enter blocks starts here -->
+    <section class="entry-block">
+      <div class="enter-block__content">
+        <div class="enter-block__detail">
+          <h1>Welcome to <strong>NCIT</strong></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+            eligendi cumque dignissimos, totam a error est earum suscipit libero
+            voluptatibus?
+          </p>
+        </div>
+        <div class="entry-block__image">
+          <img src="../lab1/images/wordpress.png" alt="wordpress" />
+        </div>
+      </div>
+      <div class="enter-block__table">
+        <table>
+          <thead>
+            <tr>
+              <th>S.N</th>
+              <th>Faculty</th>
+              <th>Pass Out</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>BSc CSIT</td>
+              <td>90%</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>BCA</td>
+              <td>+7500</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- gallery box starts here -->
+    <div class="gallery-box">
+      <h2 class="gallery-box__title">Gallery</h2>
+      <div class="gallery-box__data">
+        <div class="gallery-box__item">
+          <img
+            src="https://images.unsplash.com/photo-1661961110218-35af7210f803?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt="first_image"
+          />
+        </div>
+        <div class="gallery-box__item">
+          <img
+            src="https://images.unsplash.com/photo-1669920704206-682bd4c2934e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+            alt="second_image"
+          />
+        </div>
+        <div class="gallery-box__item">
+          <img
+            src="https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+            alt="third_image"
+          />
+        </div>
+        <div class="gallery-box__item">
+          <img
+            src="https://images.unsplash.com/photo-1669824137550-7bb7e1a55c9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80"
+            alt="fourth_image"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="faq-box">
+      <h2>FAQs</h2>
+      <dl class="accordion">
+        <dt>Question 1</dt>
+        <dd>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, nulla.
+          </p>
+        </dd>
+        <dt>Question 2</dt>
+        <dd>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam id
+            cumque commodi illum consequuntur dolore modi similique harum
+            suscipit excepturi.
+          </p>
+        </dd>
+        <dt>Question 3</dt>
+        <dd>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,
+            libero et. Ex porro ipsam laudantium. Explicabo excepturi dolorum
+            reprehenderit saepe.
+          </p>
+        </dd>
+      </dl>
+    </div>
+    <div class="contact-box">
+      <h2>Contact us</h2>
+      <form action="#" method="post" name="contact">
+        <div class="field-group">
+          <label for="fullname">Fullname</label>
+          <input type="text" name="fullname" id="fullname" value="" />
+        </div>
+        <div class="field-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" value="" />
+        </div>
+        <div class="field-group">
+          <label for="phone">Phone</label>
+          <input type="number" name="phone" id="phone" />
+        </div>
+        <div class="field-group">
+          <label for="address">Address</label>
+          <input type="text" name="address" id="address" />
+        </div>
+        <div class="field-group">
+          <label for="message">Messgae</label>
+          <input type="text" name="message" id="message" />
+        </div>
+        <div class="form-box__footer">
+          <button type="submit">Send Messge</button>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <div class="footer-main">
+        <div class="footer-logo">
+          <a href="/" title="NCIT" class="site-logo">LOGO</a>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#" title="privacy policy">Privacy Policy</a></li>
+            <li>
+              <a href="#" title="Terms &amp; Condiditions"
+                >Terms &amp; Condiditions</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer_col frame-box">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.2132629275675!2d85.32768641560654!3d27.679802782803197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19ca771e9e55%3A0xc94f84d1f057520f!2sNagarjuna%20College%20of%20IT!5e0!3m2!1sen!2snp!4v1669965255720!5m2!1sen!2snp"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>Copyright &copy;2022, All rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
