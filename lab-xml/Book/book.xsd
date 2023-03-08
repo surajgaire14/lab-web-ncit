@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Book">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Title"></xs:element>
+            <xs:element name="Author"></xs:element>
+            <xs:element name="Publisher"></xs:element>
+            <xs:element name="Edition"></xs:element>
+            <xs:element name="Price"></xs:element>
+            <xs:element name="ISBN"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

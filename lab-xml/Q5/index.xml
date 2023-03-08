@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Subjects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="index.xsd">
+    <subject>
+        <name>Algo</name>
+        <topics>
+            <topic1>Greedy Algo</topic1>
+            <topic2>Randomized Algo</topic2>
+            <topic3>Searching Algo</topic3>
+            <topic4>Sorting Algo</topic4>
+        </topics>
+    </subject>
+</Subjects>

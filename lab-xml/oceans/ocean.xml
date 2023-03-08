@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Oceans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="ocean.xsd">
+    <Ocean>
+        <name>Arctic</name>
+        <area>13000</area>
+        <depth>1200</depth>
+    </Ocean>
+    <Ocean>
+        <name>Atlantic</name>
+        <area>87000</area>
+        <depth>3900</depth>
+    </Ocean>
+    <Ocean>
+        <name>Pacific</name>
+        <area>180000</area>
+        <depth>4000</depth>
+    </Ocean>
+    <Ocean>
+        <name>Indian</name>
+        <area>75000</area>
+        <depth>3900</depth>
+    </Ocean>
+    <Ocean>
+        <name>Southern</name>
+        <area>20000</area>
+        <depth>4500</depth>
+    </Ocean>
+</Oceans>

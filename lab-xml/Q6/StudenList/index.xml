@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href = "./index.xsl" type = "text/xsl" ?>
+
+<StudentList>
+    <Title>List of class Students</Title>
+    <Student>
+        <name>Ramesh</name>
+        <address>Kathmandu</address>
+        <rollno>7</rollno>
+        <batch>2075</batch>
+    </Student>
+    <Student>
+        <name>Rajesh</name>
+        <address>Lalitpur</address>
+        <rollno>77</rollno>
+        <batch>2059</batch>
+    </Student>
+</StudentList>

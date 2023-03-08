@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Book>
+    <Title>Harry Potter and the Sorcerer's Stone </Title>
+    <Author>J.K Rowling</Author>
+    <Publisher>Bloomsbury</Publisher>
+    <Edition>1st Edition </Edition>
+    <Price>1000</Price>
+    <ISBN>9781526602381</ISBN>
+</Book>

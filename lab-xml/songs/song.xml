@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<songs>
+    <song>
+        <name>Guzarish</name>
+        <singer>Javed Ali,Sonu Nigam</singer>
+        <composer>A.R Rehman</composer>
+        <length>5:47</length>
+    </song>
+    <song>
+        <name>Kaise Mujhe</name>
+        <singer>Benny Dayal, Shreya Ghosal</singer>
+        <composer> A.R. Rahman</composer>
+        <length>6:02</length>
+    </song>
+    <song>
+        <name>Mirrors</name>
+        <singer>Justin Timberlake</singer>
+        <composer>Justin Timberlake</composer>
+        <length>8:20</length>
+    </song>
+    <song>
+        <name>Payphone</name>
+        <singer>Maroon 5</singer>
+        <composer>Maroon 5</composer>
+        <length>4:40</length>
+    </song>
+</songs>

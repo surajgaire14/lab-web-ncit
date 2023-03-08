@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="book.xsd"?>
+<Books>
+    <Book ISBN="1">
+        <name>Harry Potter and the Sorcerer's Stone </name>
+        <email></email>
+        <author>J.K Rowling J.K Rowling</author>
+        <page_no></page_no>
+        <price></price>
+    </Book>
+</Books>
