@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 90%;
+        margin: 1em auto;
+      }
+
+      /* header starts */
+      .header {
+        display: flex;
+        justify-content: space-between;
+        border-top: 50px solid #e25623;
+        padding: 1.5em 0;
+        background-color: #f2f3f2;
+      }
+
+      .header .left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .header .left,
+      .header .invoice {
+        padding: 0.5em;
+      }
+
+      .header .invoice h3 {
+        font-size: 2.2em;
+        color: #888982;
+      }
+
+      .header .invoice p {
+        text-align: center;
+        padding: 0.3em 0;
+        margin: 0.2em 0;
+        border-bottom: 2px solid #dadadb;
+      }
+
+      .header .left img {
+        border-radius: 50%;
+      }
+
+      .header .invoice {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+
+      /* header ends */
+
+      /* payment section starts */
+      .payment table tr td {
+        width: 100vw;
+        text-align: right;
+        padding: 1.5em 0;
+        font-size: 1.1em;
+      }
+
+      /* bill container */
+
+      .bill__container {
+        width: 95%;
+        margin: 1em auto;
+        display: flex;
+        gap: 50px;
+      }
+
+      .bill__container .bill,
+      .bill__container .ship {
+        flex: 1;
+      }
+
+      .bill__container h4 {
+        border-bottom: 2px solid #e4e4e4;
+        padding: 0.5em 0;
+      }
+
+      .bill__container p {
+        padding: 0.3em 0;
+      }
+
+      /* invoice table */
+
+      .invoiceTable {
+        width: 95%;
+        height: 80vh;
+        border-bottom: 50px solid #e25623;
+      }
+
+      .invoiceTable table {
+        width: 100%;
+      }
+
+      .invoiceTable table tr th,
+      .invoiceTable table tr td {
+        padding: 0.5em;
+      }
+
+      .invoiceTable table tr th {
+        border-style: hidden;
+      }
+
+      .invoiceTable table tbody tr td {
+        border-bottom-style: hidden;
+        border-collapse: collapse;
+      }
+
+      .invoiceTable table tr th {
+        background-color: #e25623;
+        color: #fff;
+        font-size: 1.2em;
+      }
+
+      .invoiceTable table:not(.invoice_innertable) tr:nth-child(2n) {
+        background-color: #f2f3f2;
+      }
+
+      .invoiceTable table tbody tr td {
+        border-bottom-style: hidden;
+      }
+      .invoice__innertable td:empty {
+        visibility: hidden;
+      }
+      .invoiceTable table tbody tr td {
+        border-top-width: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left">
+        <img src="https://placehold.co/150x150" alt="logo" />
+        <div>
+          <h3>Company Name</h3>
+          <p>Company address</p>
+          <p>Contact Info</p>
+        </div>
+      </div>
+      <div class="invoice">
+        <h3>Invoice</h3>
+        <p>Date</p>
+        <p>Invoice No</p>
+      </div>
+    </div>
+    <div class="payment">
+      <table>
+        <tr>
+          <td>Payment Terms</td>
+        </tr>
+      </table>
+    </div>
+    <div class="bill__container">
+      <div class="bill">
+        <h4>Bill To</h4>
+        <p>Contact Name</p>
+        <p>CLient company name</p>
+        <p>Address</p>
+        <p>phone</p>
+        <p>Email</p>
+      </div>
+      <div class="ship">
+        <h4>Ship to</h4>
+        <p>Name/Dept</p>
+        <p>Client company Name</p>
+        <p>Address</p>
+        <p>Phone</p>
+      </div>
+    </div>
+    <div class="invoiceTable">
+      <table cellspacing="0" cellpadding="10" border="1">
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Qty</th>
+            <th>Unit price</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td align="right">0.00</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td align="right">0.00</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td align="right">0.00</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td align="right">0.00</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td align="right">0.00</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td align="right">0.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <table
+        border="0"
+        cellspacing="0"
+        cellpadding="0"
+        class="invoice_innertable"
+      >
+        <tr >
+          <td align="center">Remarks/Payment Instructions</td>
+          <td></td>
+          <td align="right">Subtotal</td>
+          <td align="right">0.00</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td align="right">Discount</td>
+          <td align="right">0.00</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td align="right">Subtotal Less discount</td>
+          <td align="right">0.00</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td align="right">Tax Rate</td>
+          <td align="right">0.00</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td align="right">Total Tax</td>
+          <td align="right">0.00</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td align="right">Shipping/Handling</td>
+          <td align="right">0.00</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td align="right">Balance Duo</td>
+          <td align="right">$ -</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
