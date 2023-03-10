@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./index.xsl" type="text/xsl" ?>
 
 <Subjects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="index.xsd">
@@ -9,6 +10,42 @@
             <topic2>Randomized Algo</topic2>
             <topic3>Searching Algo</topic3>
             <topic4>Sorting Algo</topic4>
+        </topics>
+    </subject>
+    <subject>
+        <name>Data Structures</name>
+        <topics>
+            <topic1>Array </topic1>
+            <topic2>Stack</topic2>
+            <topic3>Queue</topic3>
+            <topic4>Linked List</topic4>
+        </topics>
+    </subject>
+    <subject>
+        <name>Web Technology</name>
+        <topics>
+            <topic1>HTML</topic1>
+            <topic2>CSS</topic2>
+            <topic3>JAVASCRIPT</topic3>
+            <topic4>Php</topic4>
+        </topics>
+    </subject>
+    <subject>
+        <name>Languages</name>
+        <topics>
+            <topic1>C/C++</topic1>
+            <topic2>Java</topic2>
+            <topic3>Python</topic3>
+            <topic4>Ruby</topic4>
+        </topics>
+    </subject>
+    <subject>
+        <name>DBMS</name>
+        <topics>
+            <topic1>Basics</topic1>
+            <topic2>E/R Diagram</topic2>
+            <topic3>Normalization</topic3>
+            <topic4>Transaction Concepts</topic4>
         </topics>
     </subject>
 </Subjects>

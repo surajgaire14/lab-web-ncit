@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Book>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="book.xsd">
     <Title>Harry Potter and the Sorcerer's Stone </Title>
     <Author>J.K Rowling</Author>
     <Publisher>Bloomsbury</Publisher>
